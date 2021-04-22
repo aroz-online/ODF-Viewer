@@ -34,8 +34,11 @@ This module is powered by the (legacy) [ViewerJS](https://viewerjs.org/) library
 ### FAQ
 
 1. Why this module has to be installed separately?
+
    Ans: Because this is licensed under AGPL which is complex to deal with if this is included in the main repo
 2. Why this UI looks so 2000s?
+
    Ans: Because this library haven't been updated since the 2000s.
 3. Can I use this somewhere else?
+
    Ans: Yes. Please see the AGPL for all the requirement for using it somewhere else
