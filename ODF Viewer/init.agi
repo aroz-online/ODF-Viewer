@@ -1,0 +1,27 @@
+/*
+	ODF Viewer
+
+	Copyright 2012 Mozilla Foundation
+	ArozOS adaptive layer added by tobychui 2021
+
+	See viewer.html for license information
+*/
+
+
+//Define the launchInfo for the module
+var moduleLaunchInfo = {
+    Name: "ODF Viewer",
+	Desc: "Open OpenOffice files",
+	Group: "Office",
+	IconPath: "ODF Viewer/img/odfReader.png",
+	Version: "0.2.1",
+	StartDir: "",
+	SupportFW: true,
+	LaunchFWDir: "ODF Viewer/odfReader.html",
+	SupportEmb: false,
+	InitFWSize: [1080, 580],
+	SupportedExt: [".odt", ".odp", ".ods"]
+}
+
+//Register the module
+registerModule(JSON.stringify(moduleLaunchInfo));
